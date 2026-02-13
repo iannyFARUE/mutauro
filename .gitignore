@@ -1,0 +1,31 @@
+.env
+
+secrets/*
+secrets
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# models
+*.pth
+
+# Dataset
+data/raw/*
+
+.ipynb_checkpoints
+
+.DS_Store
+
+
+logs/*
+
+agent/models/*
+.txt
